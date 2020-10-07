@@ -1,0 +1,98 @@
+.gallery {
+
+    &__collection {
+        display: grid;
+        grid-template-columns: repeat(8, 9rem);
+        justify-content: center;
+    }
+
+    &__head {
+        font-size: 1.9rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    &__sub {
+        font-weight: 500;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    &__subb {
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-align: center;
+
+    }
+
+    &__item {
+        margin-right: .9rem;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &__img {
+        width: 100%;
+
+    }
+}
+
+.att {
+    text-align: center;
+}
+
+.att-head {
+    font-weight: 500;
+    font-size: 1.45rem;
+    padding: 2.9rem 0 .6rem;
+}
+
+.att-sub {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.att-img {
+    width: 30%;
+}
+
+.attraction {
+    padding: 15rem 6rem;
+}
+
+.side-head {
+    font-weight: 500;
+    font-size: 1.9rem;
+    padding: 0 0 2.5rem;
+}
+
+.side-sub {
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 0 0 2.5rem;
+}
+
+.side-subb {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.embrace {
+    text-align: center;
+}
+
+p {
+    font-size: 1.35rem;
+    width: 60%;
+    margin: auto;
+    font-weight: 400;
+    @include respond (tab-port){
+        width:90%;
+      }
+}

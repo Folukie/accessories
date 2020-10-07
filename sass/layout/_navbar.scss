@@ -1,0 +1,77 @@
+.allnav {
+}
+.navbar-main{
+    position: relative;
+
+}
+.navbar {
+    
+    &__top {
+       
+            display:flex;
+            justify-content: center;
+            padding:2.5rem 0;
+
+           
+        
+
+        &--head {
+            text-transform: uppercase;
+            font-size: 1.7rem;
+            font-weight: 500;
+        }
+
+        &--line,
+        &:after {
+            width: 4rem;
+            height: 2px;
+            color: black;
+        }
+
+        &::after {
+            content: "";
+        }
+    }
+}
+
+
+.top-section {
+    &__row {
+        display: flex;
+        justify-content: space-around;
+        @include respond (tab-port){
+            display:block;
+            justify-content: left;
+         }
+   
+    }
+
+    &__div {}
+
+    &__text {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+    }
+
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+        @include respond (tab-port){
+            display:block;
+            justify-content: left;
+         }
+    }
+}
+
+.top-link {
+    font-weight: 500;
+
+    &:not(:last-child) {
+        margin-right: 2.5rem;
+
+    }
+}
+
+li {
+    list-style: none;
+}

@@ -1,0 +1,135 @@
+.charging {
+    margin: 8rem 0;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: .7rem;
+        @include respond (tab-port){
+            display:block;
+          }
+    
+    }
+
+    &__head {
+        color: white;
+        font-size: 3rem;
+        letter-spacing: .2rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20rem 0 2rem;
+    }
+
+    &__btn {
+        border: 1px solid white;
+        color: white;
+        font-size: 1.6rem;
+        padding: .8rem 4rem;
+        margin-left: 18.5rem;
+        font-weight: 500;
+        transition: all .2s;
+        text-decoration: none;
+        @include respond (tab-port){
+           margin-left: 14rem;
+          }
+    
+
+    }
+
+
+
+    &__box:hover &__btn {
+        color: black;
+        background-color: white !important;
+        text-decoration: none;
+
+    }
+
+}
+
+.phone {
+    background-image: url(../images/charging1.jpg);
+    background-size: cover;
+    height: 70vh;
+    @include respond (tab-port){
+        height:50vh;
+      }
+
+}
+
+.charge {
+    background-image: url(../images/charging2.jpg);
+    background-size: cover;
+    height: 70vh;
+    @include respond (tab-port){
+        height:50vh;
+      }
+
+
+}
+
+.autumn {
+    background-image: url(../images/autumnbg.jpg);
+    background-size: cover;
+    height: 85vh;
+    @include respond (tab-port){
+        height:60vh;
+      }
+
+}
+
+.bags {
+    background-image: url(../images/bags.jpg) !important;
+    background-size: cover;
+    height: 70vh;
+    @include respond (tab-port){
+        height:50vh;
+      }
+
+}
+
+.screen {
+    background-image: url(../images/protect.jpg) !important;
+    background-size: cover;
+    height: 70vh;
+    @include respond (tab-port){
+        height:50vh;
+      }
+
+
+    &__head {
+        color: black;
+    }
+}
+
+.chabag {
+    color: white;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.shell {
+    width: 100%;
+    height:80vh;
+    object-fit: cover;
+    @include respond (tab-port){
+        height:60vh;
+      }
+}
+.comin{
+    background-image: url(../images/cmnsoon-img.jpg) !important;
+    background-size: cover;
+    height: 70vh;
+    @include respond (tab-port){
+        height:50vh;
+      }
+}
+.soon{
+    background-image: url(../images/comin.jpg) !important;
+    background-size: cover;
+    height: 70vh;
+    @include respond (tab-port){
+        height:50vh;
+      }
+}
