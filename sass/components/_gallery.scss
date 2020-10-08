@@ -66,27 +66,44 @@
 
 .att-img {
     width: 30%;
+    @include respond (tab-port){
+        width:20%;
+
+       }
 }
 
 .attraction {
     padding: 15rem 6rem;
+    @include respond (tab-port){
+        padding: 8rem 3rem;
+
+       }
 }
 
 .side-head {
     font-weight: 500;
     font-size: 1.9rem;
     padding: 0 0 2.5rem;
+    @include respond (tab-port){
+        text-align:center;
+       }
 }
 
 .side-sub {
     font-weight: 400;
     font-size: 1.4rem;
     padding: 0 0 2.5rem;
+    @include respond (tab-port){
+       text-align:center;
+      }
 }
 
 .side-subb {
     color: grey;
     font-size: 1.5rem;
+    @include respond (tab-port){
+        text-align:center;
+       }
 }
 
 .embrace {

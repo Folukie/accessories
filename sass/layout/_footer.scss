@@ -41,7 +41,8 @@
         padding-top: 10rem;
 
         @include respond (tab-port){
-           float: center;
+           float: center !important;
+           text-align: center !important;
            padding-top: 6rem;
         }
     }

@@ -90,6 +90,9 @@
 .unity {
     &__img {
         position: relative;
+        @include respond (tab-port){
+            margin-top: 1rem;
+        }
     }
 
     &__texts {
@@ -99,8 +102,8 @@
         text-transform: uppercase;
         color: white;
         @include respond (tab-port){
-            right: 8rem;
-            top:22rem
+            right: 8.2rem;
+            top:20rem
         }
     }
 
