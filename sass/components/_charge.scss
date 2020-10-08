@@ -53,6 +53,8 @@
     height: 70vh;
     @include respond (tab-port){
         height:50vh;
+        margin-bottom: 1rem;
+
       }
 
 }
@@ -63,6 +65,8 @@
     height: 70vh;
     @include respond (tab-port){
         height:50vh;
+        margin-bottom: 1rem;
+
       }
 
 
@@ -74,6 +78,8 @@
     height: 85vh;
     @include respond (tab-port){
         height:60vh;
+        margin-bottom: 1rem;
+
       }
 
 }
@@ -84,6 +90,8 @@
     height: 70vh;
     @include respond (tab-port){
         height:50vh;
+        margin-bottom: 1rem;
+
       }
 
 }
@@ -94,6 +102,8 @@
     height: 70vh;
     @include respond (tab-port){
         height:50vh;
+        margin-bottom: 1rem;
+
       }
 
 
@@ -115,6 +125,8 @@
     object-fit: cover;
     @include respond (tab-port){
         height:60vh;
+        margin-bottom: 1rem;
+
       }
 }
 .comin{
@@ -123,6 +135,7 @@
     height: 70vh;
     @include respond (tab-port){
         height:50vh;
+        margin-bottom: 1rem;
       }
 }
 .soon{
@@ -131,5 +144,7 @@
     height: 70vh;
     @include respond (tab-port){
         height:50vh;
+        margin-bottom: 1rem;
+
       }
 }
