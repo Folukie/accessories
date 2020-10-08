@@ -117,6 +117,10 @@ html {
     text-align: center;
     color: white;
     padding-top: 27rem; }
+    @media (max-width: 56.25em) {
+      .atelier__text {
+        height: 60vh;
+        background-position: center; } }
   .atelier__head {
     font-size: 3.4rem;
     letter-spacing: 0.1rem;
@@ -175,7 +179,8 @@ html {
   color: white; }
   @media (max-width: 56.25em) {
     .unity__texts {
-      right: 6rem; } }
+      right: 8rem;
+      top: 22rem; } }
 
 .unity__head {
   font-size: 2.8rem;

@@ -15,6 +15,10 @@
         text-align: center;
         color: white;
         padding-top: 27rem;
+
+        @include respond (tab-port){
+            padding-top: 23rem;
+          }
     }
 
     &__head {
@@ -95,7 +99,8 @@
         text-transform: uppercase;
         color: white;
         @include respond (tab-port){
-            right: 6rem;
+            right: 8rem;
+            top:22rem
         }
     }
 
