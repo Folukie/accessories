@@ -1,19 +1,43 @@
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    @include respond (tab-port) {
+        height:70%;
+     }
+ 
+
+    &__content {
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+        @include respond (tab-port) {
+            height:70%;
+         }
+     
+    }
+}
+
 .allnav {
-}
-.navbar-main{
     position: relative;
-
+    color: white;
 }
-.navbar {
-    
-    &__top {
-       
-            display:flex;
-            justify-content: center;
-            padding:2.5rem 0;
 
-           
-        
+
+.navbar {
+
+    &__top {
+
+        display: flex;
+        justify-content: center;
+        padding: 2.5rem 0;
+
+
+
 
         &--head {
             text-transform: uppercase;
@@ -39,14 +63,15 @@
     &__row {
         display: flex;
         justify-content: space-around;
-        @include respond (tab-port){
-            display:block;
+
+        @include respond (tab-port) {
+            display: block;
             justify-content: left;
-         }
-   
+        }
+
     }
 
-   
+
 
     &__text {
         text-transform: uppercase;
@@ -56,10 +81,11 @@
     &__ul {
         display: flex;
         justify-content: space-between;
-        @include respond (tab-port){
-            display:block;
+
+        @include respond (tab-port) {
+            display: block;
             justify-content: left;
-         }
+        }
     }
 }
 
@@ -74,4 +100,42 @@
 
 li {
     list-style: none;
+}
+
+.nav-footer {
+    background-color: rgb(249, 249, 249);
+    margin-top: 44rem;
+    height: 5rem;
+    @include respond (tab-port) {
+       margin-top: 27rem;
+    }
+
+    &__text {
+        text-transform: uppercase;
+        color: rgb(154, 154, 154);
+        font-size: 1.2rem;
+        margin-bottom: 0 !important;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 8rem 0;
+
+    }
+    &__img{
+        margin-top: -.3rem;
+        margin-right: 1.5rem;
+    }
+}
+.navcol {
+    margin-top: 3rem;
+    @include respond (tab-port) {
+        margin-top: 1rem;
+     }
+ 
+}
+
+.nf-row{
+    display:flex !important;
 }
