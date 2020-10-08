@@ -4,6 +4,12 @@
         display: grid;
         grid-template-columns: repeat(8, 9rem);
         justify-content: center;
+
+        @include respond (tab-port){
+        grid-template-columns: repeat(5, 8rem);
+           
+        }
+
     }
 
     &__head {
