@@ -119,8 +119,7 @@ html {
     padding-top: 27rem; }
     @media (max-width: 56.25em) {
       .atelier__text {
-        height: 60vh;
-        background-position: center; } }
+        padding-top: 23rem; } }
   .atelier__head {
     font-size: 3.4rem;
     letter-spacing: 0.1rem;
@@ -416,7 +415,8 @@ p {
   padding: 2.4rem 6rem; }
   @media (max-width: 56.25em) {
     .newsletter {
-      height: 50vh; } }
+      height: 50vh;
+      padding: 2.4rem 3rem; } }
   .newsletter__head {
     font-size: 1.7rem; }
   .newsletter__sub {
@@ -508,6 +508,9 @@ li {
 .footer {
   background-color: #03142a;
   padding: 2rem 6rem 4rem; }
+  @media (max-width: 56.25em) {
+    .footer {
+      padding: 2.4rem 3rem; } }
   .footer__head {
     color: white;
     font-size: 1.4rem;

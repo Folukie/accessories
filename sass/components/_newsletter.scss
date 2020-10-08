@@ -8,11 +8,10 @@
     padding: 2.4rem 6rem;
     @include respond (tab-port){
         height:50vh;
+        padding:2.4rem 3rem;
     }
 
 
-    &__texts {
-    }
 
     &__head {
         font-size: 1.7rem;
