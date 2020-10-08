@@ -94,6 +94,10 @@ html {
   z-index: 4;
   bottom: 24rem;
   right: 7.6rem; }
+  @media (max-width: 56.25em) {
+    .new-collection__text {
+      right: 4rem;
+      bottom: 20rem; } }
 
 .new-collection__icon {
   margin-left: 6rem; }
@@ -169,6 +173,9 @@ html {
   right: 15rem;
   text-transform: uppercase;
   color: white; }
+  @media (max-width: 56.25em) {
+    .unity__texts {
+      right: 6rem; } }
 
 .unity__head {
   font-size: 2.8rem;
@@ -207,7 +214,7 @@ html {
   right: 11rem; }
   @media (max-width: 56.25em) {
     .airpod-text {
-      right: 5rem; } }
+      right: 3rem; } }
 
 .airpodbtn {
   margin-left: 8rem !important; }
@@ -402,6 +409,9 @@ p {
   margin-top: 8rem;
   color: white;
   padding: 2.4rem 6rem; }
+  @media (max-width: 56.25em) {
+    .newsletter {
+      height: 50vh; } }
   .newsletter__head {
     font-size: 1.7rem; }
   .newsletter__sub {

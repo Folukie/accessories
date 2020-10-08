@@ -6,6 +6,9 @@
     margin-top: 8rem;
     color: white;
     padding: 2.4rem 6rem;
+    @include respond (tab-port){
+        height:50vh;
+    }
 
 
     &__texts {

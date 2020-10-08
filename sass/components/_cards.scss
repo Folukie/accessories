@@ -104,6 +104,11 @@
         bottom: 24rem;
         right: 7.6rem;
 
+        @include respond (tab-port){
+            right:4rem;
+            bottom:20rem;
+        }
+
     }
 
     &__icon {
